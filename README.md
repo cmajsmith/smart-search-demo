@@ -49,3 +49,16 @@ npm run start
 ```sh
 npm run test
 ```
+
+### Extract Entities:
+```curl
+curl http://localhost:3000/extract/?q=sushi%20in%20London
+```
+
+```curl
+curl http://localhost:3000/extract/?q=vegan%20Sushi%20in%20London
+```
+
+```curl
+curl http://localhost:3000/extract/?q=veg%20Sushi%20in%20London
+```
